@@ -11,9 +11,6 @@
 // @license MIT
 // @updateURL    https://raw.githubusercontent.com/damiancritchfield/csdn-reader/master/csdn%E9%A1%B5%E9%9D%A2%E9%98%85%E8%AF%BB%E4%BC%98%E5%8C%96.user.js#bypass=true
 
-// @require      https://cdn.jsdelivr.net/npm/jquery.cookie/jquery.cookie.js
-// @require      https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js
-// @require      https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js
 // @supportURL   https://github.com/damiancritchfield
 // @contributionURL https://github.com/damiancritchfield
 // @grant        GM_addStyle
