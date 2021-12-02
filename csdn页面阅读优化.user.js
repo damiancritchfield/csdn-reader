@@ -42,7 +42,8 @@
 "    width: 100%;",
         "max-width:100%;",
 "}",
-        "#mainBox{margin-left:0rem;}"
+        "#mainBox{margin-left:0rem;}",
+		".nodata .container{width:100%;}"
     ].join("\n");
 lsAddStyle(css);
 (function() {
@@ -54,7 +55,11 @@ lsAddStyle(css);
 	// 免登录进行代码复制
 	$("code").css("user-select","auto");
 	$("#content_views").css("user-select","auto");
-	$("pre").css("user-select","auto");7
+	$("pre").css("user-select","auto");
+	
+	// 评论栏全屏
+	$(".left-toolbox").attr("style","position: relative;z-index: 10;left: 0px;bottom: 0px;width: 100%;");
+	
 })();
 
 function lsAddStyle(css){
