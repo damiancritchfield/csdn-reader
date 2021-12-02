@@ -7,6 +7,7 @@
 // @match        http://*/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
+// @license MIT
 // @updateURL    https://raw.githubusercontent.com/damiancritchfield/csdn-reader/master/csdn%E9%A1%B5%E9%9D%A2%E9%98%85%E8%AF%BB%E4%BC%98%E5%8C%96.user.js#bypass=true
 // @note         2021-12-02 0.2 免登录进行代码复制
 // ==/UserScript==
