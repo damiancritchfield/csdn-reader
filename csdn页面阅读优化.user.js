@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         csdn页面阅读优化
 // @namespace    https://github.com/damiancritchfield
-// @version      0.3
+// @version      0.4
 // @description  对csdn博客内容进行阅读优化，包括去掉顶部导航，去掉日历等，仅留下文章和评论
 // @author       damiancritchfield
 // @connect      www.csdn.net
