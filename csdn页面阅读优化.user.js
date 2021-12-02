@@ -1,14 +1,25 @@
 // ==UserScript==
 // @name         csdn页面阅读优化
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
-// @author       You
-// @match        http://*/*
+// @namespace    https://github.com/damiancritchfield
+// @version      0.3
+// @description  对csdn博客内容进行阅读优化，包括去掉顶部导航，去掉日历等，仅留下文章和评论
+// @author       damiancritchfield
+// @connect      www.csdn.net
+// @include      *://*.csdn.net/*
+// @match        *://*.csdn.net/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @grant        none
 // @license MIT
 // @updateURL    https://raw.githubusercontent.com/damiancritchfield/csdn-reader/master/csdn%E9%A1%B5%E9%9D%A2%E9%98%85%E8%AF%BB%E4%BC%98%E5%8C%96.user.js#bypass=true
+
+// @require      https://cdn.jsdelivr.net/npm/jquery.cookie/jquery.cookie.js
+// @require      https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js
+// @require      https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js
+// @supportURL   https://github.com/damiancritchfield
+// @contributionURL https://github.com/damiancritchfield
+// @grant        GM_addStyle
+// @grant        GM_setValue
+// @grant        GM_getValue
+// @antifeature  本脚本不会收集用户数据
 // @note         2021-12-02 0.2 免登录进行代码复制
 // ==/UserScript==
     var css = [
